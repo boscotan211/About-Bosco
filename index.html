@@ -5,15 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About Me</title>
 
-    <!--Bootstrap import-->
+    <!-- Bootstrap import -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
 
-    <!--Font import-->
+    <!-- Font import -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -22,11 +21,13 @@
     />
 
     <link rel="stylesheet" href="style.css" />
+  </head>
 
-    <!--Navbar-->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg custom-nav">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">BOSCO TAN</a>
+        <a class="navbar-brand" href="#">Bosco Tan</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -47,9 +48,43 @@
         </div>
       </div>
     </nav>
-  </head>
 
-  <body>
-    <h1>WHO IS BOSCO ?</h1>
+    <!-- Section 1: Images + Text Center -->
+    <section class="section section-1">
+      <div class="container-fluid">
+        <div class="row g-3 align-items-center text-center">
+          <div class="col-md-4 col-sm-6">
+            <img src="image1.jpg" alt="Image 1" class="img-fluid rounded shadow" />
+          </div>
+
+          <div class="col-md-4 col-sm-12 text-center middle-text">
+            <h1>Your Heading Here</h1>
+            <p>Your short description or welcome text goes here.</p>
+          </div>
+
+          <div class="col-md-4 col-sm-6">
+            <img src="image3.jpg" alt="Image 3" class="img-fluid rounded shadow" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 2 -->
+    <section class="section section-2">
+      <div class="container text-center py-5">
+        <h1>Row 2</h1>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+    </section>
+
+    <!-- Section 3 -->
+    <section class="section section-3">
+      <div class="container text-center py-5">
+        <h1>Row 3</h1>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

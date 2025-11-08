@@ -1,19 +1,80 @@
+/* General layout */
+body {
+  margin: 0;
+  background-color: #325eab;
+  font-family: Arial, sans-serif;
+  overflow: hidden; /* no scroll */
+}
+
+/* Navbar styling */
+.custom-nav {
+  background-color: #ffbf00;
+}
+
 .navbar-brand {
-  font-size: 5rem;
-  font-family: "MonteCarlo", cursive;
+  font-size: 2.5rem;
+  font-family: serif;
 }
-.container-fluid {
-  padding-top: 2rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  font-size: 2rem;
+
+.navbar-nav a {
+  font-size: 1.2rem;
+  margin-right: 1rem;
 }
-h1 {
-  font-family: "Goblin One", serif;
-  font-size: 100px;
+
+/* Sections */
+.section {
+  height: 33.33vh; /* each fills 1/3 of screen */
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
 }
 
-body {
-  background-color: #325eab;
+/* Section colors */
+.section-1 {
+  background-color: #eee;
+}
+
+.section-2 {
+  background-color: #d0d0d0;
+}
+
+.section-3 {
+  background-color: #aaa;
+}
+
+/* Images in first row */
+.section-1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Optional shadow for better look */
+.shadow {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Center text vertically in the middle column */
+.middle-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.section-1 h1 {
+  font-family: "Goblin One", serif;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.section-1 p {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+h1 {
+  font-family: "Goblin One", serif;
 }
