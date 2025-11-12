@@ -15,10 +15,11 @@
 
 body {
   margin: 0;
-  background-color: var(--page-bg);
+  background-color: #e4e4e4;  
   font-family: Arial, sans-serif;
   overflow-x: hidden;
 }
+
 
 .custom-nav {
   background-color: var(--nav-bg);
@@ -49,7 +50,11 @@ body {
   padding-top: 10px;
 }
 .section-2 { background-color: var(--row2); }
-.section-3 { background-color: var(--row3); }
+.section-3 {
+  background-color: var(--row1); /* same as About section */
+  color: #ffffff; /* make text visible on dark green */
+  padding: 60px 0;
+}
 
 .section-1 .row {
   height: 100%;
@@ -138,6 +143,15 @@ body {
 }
 
 h1 { font-family: "Goblin One", serif; }
+
+.footer {
+  background-color: var(--nav-bg); 
+  color: #000;                     
+  font-size: 0.9rem;
+  border-top: 1px solid rgba(0,0,0,0.15);
+}
+
+
 
 @media (max-width: 991.98px) {
   .section {
